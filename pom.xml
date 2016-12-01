@@ -5,11 +5,28 @@
     <artifactId>authSamples</artifactId>
     <version>1.0</version>
     <packaging>war</packaging>
+<!--    
+    <properties>
+        <version.picketlink.javaee.bom>2.7.1.Final</version.picketlink.javaee.bom>
+    </properties>
+ 
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.picketlink</groupId>
+                <artifactId>picketlink-javaee-6.0</artifactId>
+                <type>pom</type>
+                <scope>import</scope>
+                <version>${version.picketlink.javaee.bom}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>-->
+    
     <dependencies>
         <dependency>
             <groupId>org.picketlink</groupId>
-            <artifactId>picketlink-core</artifactId>
-            <version>2.1.6.Final</version>
+            <artifactId>picketlink</artifactId>
+            <version>2.7.1.Final</version>
         </dependency>
         <dependency>
             <groupId>org.picketlink</groupId>
